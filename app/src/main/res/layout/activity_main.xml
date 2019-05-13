@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="#aa5522"
+            android:gravity="center"
+            android:text="selecione o seu tipo de cafe"
+            android:textColor="#FFFFFF"
+            android:textSize="60dp" />
+
+        <CheckBox
+            android:id="@+id/um"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:onClick="onCheckboxClicked"
+            android:text="cafe c/ leite 300ml R$5.00"
+            android:textSize="40dp" />
+
+        <CheckBox
+            android:id="@+id/dois"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:onClick="onCheckboxClicked"
+            android:text="cafe s/ leite 300ml R$5.00"
+            android:textSize="40dp" />
+
+        <CheckBox
+            android:id="@+id/tres"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:onClick="onCheckboxClicked"
+            android:text="cafe expresso 300ml R$7.00"
+            android:textSize="40dp" />
+
+        <CheckBox
+            android:id="@+id/quatro"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:onClick="onCheckboxClicked"
+            android:text="cappuccino 300ml R$10.00"
+            android:textSize="40dp" />
+
+        <CheckBox
+            android:id="@+id/cinco"
+            android:layout_width="440dp"
+            android:layout_height="100dp"
+            android:onClick="onCheckboxClicked"
+            android:text="cappuccino c/ chantilly 300ml R$15.00"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
